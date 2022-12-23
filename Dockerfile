@@ -2,7 +2,7 @@ FROM node:16.13.2-alpine
 
 RUN npm install -g npm@9.1.1
 
-WORKDIR /app/discord-backend/
+WORKDIR /app/babble-backend/
 
 COPY package.json .
 
